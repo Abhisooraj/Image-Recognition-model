@@ -1,0 +1,9 @@
+For building the Image recognition model we will follow these following steps:
+Step 1: Reading the dataset
+Step 2: Preprocess and analyze the dataset (Check for shape, Total Number of labels, Column content overview, Null Values, datatype)
+Step 3: In Column name “image_url” consisting names of the images and the data is having images now I need to extract the image name respectively so we can access the images by their names
+Step 4: Drop the Unnecessary columns and preprocessed the dataset
+Step 5: Assign the class weights for labels and divide the dataset in training, validation and testing parts
+Step 6: Define the density, activation function for training the model using keras Tensorflow
+Step 7: Now validate the model and store the results in csv files
+Step 8: Visualizations of the results
